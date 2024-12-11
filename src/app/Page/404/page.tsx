@@ -1,8 +1,8 @@
-'use client'
+'use client';
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Image from "next/image";
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import Image from 'next/image';
 import Link from "next/link";
 
 const Custom404 = () => (
@@ -20,12 +20,12 @@ const Custom404 = () => (
       </div>
       <div>
   <div className="text-center">
-    <img src="/404.png" alt="not-found" />
+    <Image width={200} height={200} src="/404.png" alt="not-found" />
   </div>
   </div>
        <div>
         <div className="flex justify-center">
-        <img src="/image 1174.png" alt="Brand" className="w-full max-w-[800px] h-auto" />
+        <Image width={200} height={200} src="/image 1174.png" alt="Brand" className="w-full max-w-[800px] h-auto" />
       </div>
       </div>
   
